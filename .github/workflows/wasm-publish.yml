@@ -17,7 +17,7 @@ jobs:
           node-version: 20
       - working-directory: ./wasm
         run: |
-          export BASE_URL=/
+          export BASE_URL=/ducklab
           npm i -g pnpm
           pnpm install
           pnpm run build
